@@ -17,6 +17,8 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Branches in Git are useful when we want to introduce an experimental feature or try out something that has no correlation to the current code. It helps to organize the code into different branches of commits and thus we can switch to the relevant branch when we want to work on a different approach to the problem at hand.
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in

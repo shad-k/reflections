@@ -11,3 +11,6 @@ Describe the differences between forks, clones, and branches. When would you use
 
 	When we copy a repository from a local machine to a local machine, or within a local machine or from Github to a local machine we call it cloning. When we are copying repository from someone else’s account on Github to our Github account, it is called forking and our Github repository automatically mentions that this repository has been forked from somewhere else. When we want to try out experimental changes or introduce a new feature to our project we should create a branch. A branch is very good for separating concerns. We can merge a branch when we think that the new feature can be merged and brought to the master branch.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	The benefit of having a copy of the last known state of remote stored locally is that we get to know by running git status whether the local and the remote branches are out of sync. If they indeed are we can merge them and resolve any conflicts that may arise while merging.

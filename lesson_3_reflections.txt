@@ -14,3 +14,8 @@ Describe the differences between forks, clones, and branches. When would you use
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 	The benefit of having a copy of the last known state of remote stored locally is that we get to know by running git status whether the local and the remote branches are out of sync. If they indeed are we can merge them and resolve any conflicts that may arise while merging.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	Without Git or GitHub collaboration can be done via email or project management apps like Slack. Communication might be a little easier since Slack or email work in a more email or text message format and to which we are more accustomed. But keeping a track of code and code changes will get a lot harder.
+

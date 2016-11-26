@@ -19,3 +19,7 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 
 	Without Git or GitHub collaboration can be done via email or project management apps like Slack. Communication might be a little easier since Slack or email work in a more email or text message format and to which we are more accustomed. But keeping a track of code and code changes will get a lot harder.
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	It is better to make changes in a separate branch when the changes we are making are massive in their impacts, so much so that anything bad in our new code might actually break the whole master branch. Thus the production ready code might take a hit if we do otherwise.
+	We should make changes to master only when we need to make small changes that are in line with the developmental goals of a project and in particular a feature. For example code refinements that improve code performance and memory usage. The benefit of this is that we can straightaway push changes to the master branch on our GitHub repository without having to take the longer route of making a branch and creating pull requests.
